@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Valentina Lesovaya](https://up.htmlacademy.ru/htmlcss/23/user/21085).
-* Наставник: `Неизвестно`.
+* Наставник: [Valentina Lesovaya](https://up.htmlacademy.ru/htmlcss/23/user/21085).
 
 ---
 
