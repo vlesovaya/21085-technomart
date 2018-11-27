@@ -69,28 +69,44 @@
             <fieldset class="filter-company">
               <legend>Производители:</legend>
               <p class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company" value="bosh" id="bosh" checked>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company"
+                       value="bosh" id="bosh" checked>
                 <label for="bosh">Bosh</label>
               </p>
               <p class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company" value="interskol" id="interskol">
-                <label for="bosh">Интерскол</label>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company"
+                       value="interskol" id="interskol">
+                <label for="interskol">Интерскол</label>
               </p>
               <p class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company" value="makita" id="makita" checked>
-                <label for="bosh">Makita</label>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company"
+                       value="makita" id="makita" checked>
+                <label for="makita">Makita</label>
               </p>
               <p class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company" value="dewalt" id="dewalt">
-                <label for="bosh">Dewalt</label>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company"
+                       value="dewalt" id="dewalt">
+                <label for="dewalt">Dewalt</label>
               </p>
               <p class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company" value="hitachi" id="hitachi">
-                <label for="bosh">Hitachi</label>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="company"
+                       value="hitachi" id="hitachi">
+                <label for="hitachi">Hitachi</label>
               </p>
             </fieldset>
+            <fieldset class="filter-power">
+              <legend>Питание:</legend>
+              <p class="filter-option">
+                <input class="filter-input" type="radio" name="grid" value="cordless" id="cordless" checked>
+                <label for="cordless">Аккумуляторные</label>
+              </p>
+              <p class="filter-option">
+                <input class="filter-input" type="radio" name="grid" value="network" id="network">
+                <label for="network">Сетевые</label>
+              </p>
+            </fieldset>
+            <button type="submit" class="show">Показать</button>
           </form>
-
         </div>
       </section>
       <section class="catalog">
