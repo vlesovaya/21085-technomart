@@ -1,0 +1,253 @@
+html,
+body {
+}
+
+body {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #32425c;
+}
+.main-navigation {
+  background-color: #f3f7f8;
+}
+
+.top-navigation {
+  background-color: #293449;
+}
+
+.main-header-logo,
+.main-footer-logo {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ee3643;
+  box-shadow: 0 5px 0 #b52933;
+}
+
+.top-navigation-user {
+  background-color: #293449;
+}
+
+.main-header-logo:hover {
+  background-color: #ca2c37;
+  box-shadow: 0 5px 0 #9a212a;
+}
+
+.main-header-logo:focus {
+  background-color: #ba2732;
+  box-shadow: 0 5px 0 #8e1e26;
+}
+
+.top-navigation .search {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.navigation-user-link:hover {
+  opacity: 1;
+  background-color: #212a3a;
+}
+
+.top-navigation-user .search:hover {
+  opacity: 1;
+  background-color: #212a3a;
+}
+
+.top-navigation-user .marker-link:focus,
+.top-navigation-user .cart-link:focus {
+  opacity: 0.6;
+  background-color: #161d29;
+}
+
+.top-navigation-user .order-link:hover {
+  opacity: 1;
+  background-color: #5fbb2d;
+}
+
+.top-navigation-user .order-link:focus {
+  opacity: 0.5;
+  background-color: #518534;
+}
+
+.top-navigation .order-link {
+  background-color: #63a63e;
+}
+.top-navigation a{
+  color: #ffffff;
+}
+
+.top-info h1 {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: normal;
+  color: #ee3643;
+}
+
+.top-info .top-info-phone {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #ee3643;
+}
+
+.top-info p {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #32425c;
+}
+
+.user-navigation {
+  list-style: none;
+}
+
+.user-navigation a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.user-navigation a:hover {
+  color: #ee3643;
+}
+
+.user-navigation a:focus {
+  opacity: 0.3;
+  color: #000000;
+}
+
+.navigation-wrapper {
+  background-color: #32425c;
+  box-shadow: 0 5px 0 #293449;
+}
+
+.navigation-wrapper .site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+
+.site-navigation a:hover {
+  opacity: 1;
+  background-color: #293449;
+}
+
+.site-navigation a:focus {
+  opacity: 0.5;
+  background-color: #000000;
+}
+
+.description-about h2,
+.description-contacts h2 {
+  color: #000000;
+}
+
+.description-about p,
+.description-delivery p,
+.description-contacts p {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.delivery-list {
+  list-style: none;
+}
+.delivery-list p {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.description-left-button,
+.message-button {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.main-footer {
+  background-color: #32425c;
+}
+.footer-top {
+  background-color: #32425c;
+}
+.footer-contacts p {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.site-footer-navigation a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.catalog-footer-navigation a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+}
+
+.footer-bottom {
+  background-color: #293449;
+}
+
+.footer-bottom p,
+.footer-bottom a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.email a,
+.developed-by a {
+  color: #ffd180;
+}
+
+.modal-write-us {
+  display: none;
+}
+
+

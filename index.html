@@ -6,30 +6,30 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
 </head>
 <body>
 <header class="main-header">
   <div class="container">
     <nav class="main-navigation">
       <div class="top-navigation">
-        <a class="main-header-logo button" href="index.html">Техномарт</a>
-        <div class="search">
-          <a class="search-link" href="serch.html">Поиск:</a>
-        </div>
-        <div class="marker">
-          <a class="marker-link" href="marker.html">Закладки:</a>
-        </div>
-        <div class="shop-cart">
-          <a class="cart-link" href="cart.html">Корзина:</a>
-        </div>
-        <div class="order">
-          <a class="order-link" href="order.html">Оформить заказ</a>
+        <div class="top-navigation-user">
+          <a class="main-header-logo button" href="index.html">Техномарт</a>
+          <form class="search" action="/" method="get">
+            <label class="visually-hidden" for="input-field">Поиск</label>
+            <input class="search-input-field" type="text" name="input-field" id="input-field" placeholder="Поиск:">
+            <button class="search-submit" type="submit" >Отправить</button>
+          </form>
+            <a class="navigation-user-link marker-link" href="marker.html">Закладки:</a>
+            <a class="navigation-user-link cart-link" href="cart.html">Корзина:</a>
+            <a class="navigation-user-link order-link" href="order.html">Оформить заказ</a>
         </div>
       </div>
       <div class="top-info">
         <div class="top-info-text">
           <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
           <span class="top-info-phone">+7 (812) 555-05-55</span>
+          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
       </div>
       <ul class="user-navigation">
@@ -54,10 +54,11 @@
   <section class="description">
     <div class="container">
       <div class="description-left">
-        <div class="description-about"></div>
+        <div class="description-about">
         <h2>Компания «Техномарт»</h2>
         <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
           равнодушным любителей сэкономить на гастарбайтерах</p>
+        </div>
       </div>
       <div class="description-delivery">
         <h2 class="visually-hidden">Информация о доставке</h2>
@@ -94,7 +95,7 @@
     <div class="footer-top">
       <section class="footer-contacts">
         <h2 class="visually-hidden">Наши контакты</h2>
-        <a class="main-header-logo" href="index.html">Техномарт</a>
+        <a class="main-footer-logo" href="index.html">Техномарт</a>
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
           +7 (812) 555-05-55
         </p>
