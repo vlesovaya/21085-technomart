@@ -30,8 +30,8 @@
         </div>
       </div>
       <ul class="user-navigation">
-        <li class="login-link">Войти</li>
-        <li class="registration">Регистрация</li>
+        <li><a class="login-link" href="login.html">Войти</a></li>
+        <li><a class="checkin" href="checkin.html">Регистрация</a></li>
       </ul>
       <div class="navigation-wrapper">
         <ul class="site-navigation">
@@ -144,5 +144,30 @@
     </div>
   </div>
 </footer>
+<section class="modal modal-write-us">
+  <h2>Напишите нам</h2>
+  <form class="user-form" method="post" action="https://echo.htmlacademy.ru">
+    <p class="user-info">
+      <label for="user-name">
+        Ваше имя<br>
+      </label>
+      <input id="user-name" type="text" name="login" value="" placeholder="Имя Фамилия">
+    </p>
+    <p class="user-info">
+      <label for="user-email">
+        Ваш email:<br>
+      </label>
+      <input id="user-email" type="email" name="email" value="" placeholder="email@example.com">
+    </p>
+    <p>
+      <label for="user-letter">
+        Текст письма:<br>
+      </label>
+      <textarea id="user-letter" name="text" rows="4" cols="100" placeholder="В свободной форме"></textarea>
+    </p>
+    <button class="send-letter" type="submit" value="Отправить">Отправить</button>
+  </form>
+  <button class="modal-close" type="button" aria-label="Закрыть окно"></button>
+</section>
 </body>
 </html>
