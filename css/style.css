@@ -254,6 +254,8 @@ h2 {
   display: none;
 }
 
+/*СТИЛИЗАЦИЯ СТРАНИЦЫ КАТАЛОГА*/
+
 .user-block-account {
   background-color: #ffffff;
 }
@@ -276,7 +278,6 @@ h2 {
   opacity: 0.3;
   color: #000000;
 }
-
 
 .user-block-menu a {
   font-family: "Cuprum", Arial, sans-serif;
@@ -302,6 +303,10 @@ h2 {
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.page-content h2 {
+  background-color: #f2f6f8;
 }
 
 legend {
