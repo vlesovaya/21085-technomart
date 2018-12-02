@@ -250,4 +250,161 @@ h2 {
   display: none;
 }
 
+.modal-add-cart {
+  display: none;
+}
+
+.user-block-account {
+  background-color: #ffffff;
+}
+
+.user-block-account a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+.user-block-account a:hover {
+  opacity: 1;
+  color: #32425c;
+}
+
+.user-block-account a:focus {
+  opacity: 0.3;
+  color: #000000;
+}
+
+
+.user-block-menu a {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  background-color: #f2f6f8;
+}
+
+.user-block-menu a:hover {
+  opacity: 1;
+  color: #ee3643;
+}
+
+.user-block-menu a:focus {
+  opacity: 0.3;
+  color: #32425c;
+}
+
+.breadcrumbs-item {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+legend {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter-option label {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.show {
+  width: 140px;
+  text-transform: uppercase;
+  height: 38px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+
+.product-list {
+  list-style: none;
+}
+.item-image h3 {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.item-old-price {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.item-price {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.item-actions a {
+  display: block;
+  width: 135px;
+  height: 38px;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.item-btn-buy {
+  color: #ffffff;
+  background-color: #63a63e;
+  border-radius: 3px;
+  border-box: 0 0 5px 0 #377416;
+  box-shadow: 0 5px 0 #367315;
+}
+
+.item-btn-buy:hover {
+  background-color: #5fbb2d;
+}
+
+.item-btn-buy:focus {
+  background-color: #518534;
+}
+
+.item-btn-bookmarks {
+  color: #32425c;
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 3px solid #367315;
+  box-sizing: border-box;
+}
+
+.item-btn-bookmarks:hover {
+  opacity: 1;
+  color: #32425c;
+  border: 3px solid #32425c;
+}
+
+.item-btn-bookmarks:focus {
+  opacity: 0.3;
+}
+
 
