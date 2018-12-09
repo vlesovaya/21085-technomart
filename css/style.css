@@ -1,14 +1,17 @@
 html,
 body {
-  min-width: 960px;
+  min-width: 1200px;
 }
 
 body {
   margin: 0;
   padding: 0;
+
   font-family: "Cuprum", Arial, sans-serif;
   font-weight: 400;
   color: #000000;
+
+  min-width: 1200px;
 }
 
 .container {
@@ -46,13 +49,21 @@ h2 {
   text-transform: uppercase;
   color: #32425c;
 }
-.main-navigation {
+
+.main-header {
   background-color: #f3f7f8;
 }
 
+.main-navigation {
+  background-color: #f3f7f8;
+  padding-bottom: 60px;
+}
+
 .top-navigation {
+  display: flex;
   background-color: #293449;
 }
+
 
 .top-navigation-user .main-header-logo {
   display: block;
@@ -80,8 +91,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #293449;
-  padding: 0;
+  width: 940px;
 }
 
 .main-header-logo:hover {
@@ -264,7 +274,7 @@ h2 {
   padding-bottom: 16px;
 }
 
-.navigation-wrapper {
+.site-navigation {
   background-color: #32425c;
   box-shadow: 0 5px 0 #293449;
 }
@@ -340,9 +350,17 @@ h2 {
 .main-footer {
   background-color: #32425c;
 }
-.footer-top {
+.footer-top-content {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #32425c;
 }
+
+.main-footer-logo {
+  display: block;
+  margin-bottom: 33px;
+}
+
 .footer-contacts p {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
@@ -350,11 +368,28 @@ h2 {
   color: #ffffff;
 }
 
+.site-footer-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  width: 550px;
+  margin-bottom: 33px;
+}
+
 .site-footer-navigation a {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
+}
+
+.catalog-footer-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+  margin-left: 25px;
 }
 
 .catalog-footer-navigation a {
@@ -366,6 +401,14 @@ h2 {
 
 .footer-bottom {
   background-color: #293449;
+}
+
+.footer-bottom-content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #293449;
+  padding-bottom: 31px;
+  min-width: 940px;
 }
 
 .footer-bottom p,
@@ -380,6 +423,48 @@ h2 {
 .developed-by a {
   color: #ffd180;
 }
+
+.footer-bottom-copyright {
+  display: inline-block;
+  width: 230px;
+  margin-right: 120px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  width: 130px;
+  margin-right: 120px;
+}
+
+.email {
+  display: block;
+}
+
+.email p {
+  display: block;
+  margin-bottom: 0;
+}
+.developed-by {
+  display: block;
+}
+
+.developed-by p {
+  display: block;
+  margin-bottom: 0;
+}
+
+.footer-feedback {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 300px;
+}
+
+
+/*СТИЛИЗАЦИЯ МОДАЛЬНЫХ ОКОН*/
 
 .modal-write-us {
   display: none;
