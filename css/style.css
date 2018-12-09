@@ -634,7 +634,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.page-content h2 {
+.catalog-content h2 {
   background-color: #f2f6f8;
 }
 
@@ -741,4 +741,109 @@ legend {
   opacity: 0.3;
 }
 
+.catalog {
+  display: block;
+  max-width: 720px;
+}
+
+.breadcrumbs {
+  display: inline-block;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.catalog-content h2 {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.filter-company,
+.filter-power {
+  border: none;
+  padding: 0;
+}
+
+.filter-company {
+  width: 220px;
+  margin: 0;
+  border: none;
+}
+
+.filter-power {
+  width: 220px;
+  margin: 0;
+  border: none;
+  margin-bottom: 64px;
+}
+
+.range-controls {
+  position: relative;
+
+  height: 41px;
+  margin-bottom: 15px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  background-color: #f1f1f1;
+
+  border-radius: 5px;
+}
+
+.catalog-columns {
+  display: flex;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-bottom: 52px;
+  padding-left: 0;
+}
+
+.pagination-list {
+  display: flex;
+  justify-content: flex-start;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.pagination-item {
+  margin-right: 10px;
+  margin-bottom: 60px;
+}
+
+.pagination-item a {
+  display: block;
+  padding: 15px 20px;
+  color: #000000;
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+
+  background-color: #ffffff;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.pagination-item .first-button {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.item-image {
+  width: 220px;
+  height: 318px;
+  margin-bottom: 20px;
+
+  border: 1px solid #c5c5c5;
+}
 
