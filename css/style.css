@@ -182,13 +182,13 @@ h2 {
 .top-information {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-
 
 .top-information h1 {
 
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 49px;
   margin-right: 54px;
   margin-bottom: 43px;
   margin-left: 50px;
@@ -204,14 +204,26 @@ h2 {
 .top-info-address {
   display: block;
   margin-top: 46px;
-  margin-right: 69px;
+  margin-right: 51px;
   margin-bottom: 43px;
 }
 
+.top-info-address p {
+  display: inline-block;
+  width: 270px;
+  text-align: center;
+  margin: 0;
+}
 
 .top-info-phone {
   display: block;
+
+  width: 270px;
+  padding-top: 11px;
   padding-bottom: 11px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid #ffffff;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 21px;
@@ -543,7 +555,28 @@ h2 {
 
 /*СТИЛИЗАЦИЯ СТРАНИЦЫ КАТАЛОГА*/
 
+.catalog-information {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-block {
+  display: block;
+}
+
+.user-menu-username {
+  display: block;
+
+  padding-top: 15px;
+  padding-bottom: 11px;
+  width: 300px;
+  text-align: center;
+}
+
 .user-block-account {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 46px;
   background-color: #ffffff;
 }
 
@@ -572,6 +605,15 @@ h2 {
   line-height: 18px;
   color: #32425c;
   background-color: #f2f6f8;
+  text-decoration: underline;
+}
+
+.user-block-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 215px;
+  padding-left: 15px;
 }
 
 .user-block-menu a:hover {
