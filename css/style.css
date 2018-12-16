@@ -614,13 +614,28 @@ h2 {
   margin-right: 120px;
 }
 
+.footer-bottom-social {
+  margin-right: 120px;
+}
+
 .social-buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   list-style: none;
-  width: 130px;
-  margin-right: 120px;
+  padding: 0;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #212a3a;
+  margin-right: 5px;
 }
 
 .email {
