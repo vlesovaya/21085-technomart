@@ -666,7 +666,6 @@ h2 {
   background-color: #ffffff;
 }
 
-
 .user-block-account a:hover {
   opacity: 1;
   color: #32425c;
@@ -721,11 +720,6 @@ legend {
   color: #000000;
 }
 
-/*.filter {*/
-  /*display: block;*/
-  /*margin-right: 20px;*/
-/*}*/
-
 .filter-item {
   display: block;
   margin-top: 10px;
@@ -759,55 +753,6 @@ legend {
   color: #000000;
 }
 
-/*.item-actions a {*/
-  /*display: block;*/
-  /*width: 135px;*/
-  /*height: 38px;*/
-  /*font-family: "Cuprum", Arial, sans-serif;*/
-  /*font-size: 14px;*/
-  /*line-height: 18px;*/
-  /*text-transform: uppercase;*/
-/*}*/
-
-/*.item-btn-buy {*/
-  /*color: #ffffff;*/
-  /*background-color: #63a63e;*/
-  /*border-radius: 3px;*/
-  /*border-box: 0 0 5px 0 #377416;*/
-  /*box-shadow: 0 5px 0 #367315;*/
-/*}*/
-
-/*.item-btn-buy:hover {*/
-  /*background-color: #5fbb2d;*/
-/*}*/
-
-/*.item-btn-buy:focus {*/
-  /*background-color: #518534;*/
-/*}*/
-
-/*.item-btn-bookmarks {*/
-  /*color: #32425c;*/
-  /*background-color: #ffffff;*/
-  /*border-radius: 3px;*/
-  /*border: 3px solid #367315;*/
-  /*box-sizing: border-box;*/
-/*}*/
-
-/*.item-btn-bookmarks:hover {*/
-  /*opacity: 1;*/
-  /*color: #32425c;*/
-  /*border: 3px solid #32425c;*/
-/*}*/
-
-/*.item-btn-bookmarks:focus {*/
-  /*opacity: 0.3;*/
-/*}*/
-
-/*.catalog {*/
-  /*display: block;*/
-  /*max-width: 720px;*/
-/*}*/
-
 .breadcrumbs {
   display: inline-block;
   margin-bottom: 24px;
@@ -828,7 +773,7 @@ legend {
 
 .filter-company {
   width: 220px;
-  margin: 0;
+  margin-right: 20px;
   border: none;
 }
 
@@ -858,14 +803,9 @@ legend {
 }
 
 .catalog-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
   margin-bottom: 52px;
-  padding-left: 0;
 
-  width: 720px;
+  width: 700px;
   margin: 20px auto;
 }
 
@@ -873,11 +813,23 @@ legend {
   position: relative;
   display: inline-block;
   width: 218px;
+  margin-right: 20px;
   margin-bottom: 20px;
   border:1px solid #ccc;
   line-height:20px;
   font-weight:bold;
   text-align:center;
+}
+
+.catalog-item:nth-child(3n){
+  margin-right:0;
+}
+
+.catalog-items{
+  font-size:0;
+}
+.catalog-item{
+  font-size:16px;
 }
 
 .catalog-item .flag {
