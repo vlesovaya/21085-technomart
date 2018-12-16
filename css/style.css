@@ -67,7 +67,6 @@ h2 {
 
 .top-navigation-user .main-header-logo {
   display: block;
-  margin-right: 10px;
 }
 
 .main-header-logo,
@@ -713,10 +712,6 @@ h2 {
   text-transform: uppercase;
 }
 
-.catalog-content h2 {
-  background-color: #f2f6f8;
-}
-
 legend {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
@@ -724,6 +719,16 @@ legend {
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
+}
+
+/*.filter {*/
+  /*display: block;*/
+  /*margin-right: 20px;*/
+/*}*/
+
+.filter-item {
+  display: block;
+  margin-top: 10px;
 }
 
 .filter-option label {
@@ -746,11 +751,7 @@ legend {
   border-radius: 3px;
 }
 
-
-.product-list {
-  list-style: none;
-}
-.item-image h3 {
+.item-title {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 20px;
@@ -758,72 +759,54 @@ legend {
   color: #000000;
 }
 
-.item-old-price {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 17px;
-  line-height: 18px;
-  font-weight: bold;
-  color: #999999;
-  text-decoration: line-through;
-}
+/*.item-actions a {*/
+  /*display: block;*/
+  /*width: 135px;*/
+  /*height: 38px;*/
+  /*font-family: "Cuprum", Arial, sans-serif;*/
+  /*font-size: 14px;*/
+  /*line-height: 18px;*/
+  /*text-transform: uppercase;*/
+/*}*/
 
-.item-price {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 17px;
-  line-height: 18px;
-  font-weight: bold;
-  color: #ffffff;
-  background-color: #ee3643;
-}
+/*.item-btn-buy {*/
+  /*color: #ffffff;*/
+  /*background-color: #63a63e;*/
+  /*border-radius: 3px;*/
+  /*border-box: 0 0 5px 0 #377416;*/
+  /*box-shadow: 0 5px 0 #367315;*/
+/*}*/
 
-.item-actions a {
-  display: block;
-  width: 135px;
-  height: 38px;
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
+/*.item-btn-buy:hover {*/
+  /*background-color: #5fbb2d;*/
+/*}*/
 
-.item-btn-buy {
-  color: #ffffff;
-  background-color: #63a63e;
-  border-radius: 3px;
-  border-box: 0 0 5px 0 #377416;
-  box-shadow: 0 5px 0 #367315;
-}
+/*.item-btn-buy:focus {*/
+  /*background-color: #518534;*/
+/*}*/
 
-.item-btn-buy:hover {
-  background-color: #5fbb2d;
-}
+/*.item-btn-bookmarks {*/
+  /*color: #32425c;*/
+  /*background-color: #ffffff;*/
+  /*border-radius: 3px;*/
+  /*border: 3px solid #367315;*/
+  /*box-sizing: border-box;*/
+/*}*/
 
-.item-btn-buy:focus {
-  background-color: #518534;
-}
+/*.item-btn-bookmarks:hover {*/
+  /*opacity: 1;*/
+  /*color: #32425c;*/
+  /*border: 3px solid #32425c;*/
+/*}*/
 
-.item-btn-bookmarks {
-  color: #32425c;
-  background-color: #ffffff;
-  border-radius: 3px;
-  border: 3px solid #367315;
-  box-sizing: border-box;
-}
+/*.item-btn-bookmarks:focus {*/
+  /*opacity: 0.3;*/
+/*}*/
 
-.item-btn-bookmarks:hover {
-  opacity: 1;
-  color: #32425c;
-  border: 3px solid #32425c;
-}
-
-.item-btn-bookmarks:focus {
-  opacity: 0.3;
-}
-
-.catalog {
-  display: block;
-  max-width: 720px;
-}
+/*.catalog {*/
+  /*display: block;*/
+  /*max-width: 720px;*/
+/*}*/
 
 .breadcrumbs {
   display: inline-block;
@@ -833,8 +816,8 @@ legend {
 
 .catalog-content h2 {
   display: block;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0;
+  background-color: #f2f6f8;
 }
 
 .filter-company,
@@ -874,13 +857,139 @@ legend {
   display: flex;
 }
 
-.product-list {
+.catalog-items {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
   margin-bottom: 52px;
   padding-left: 0;
+
+  width: 720px;
+  margin: 20px auto;
+}
+
+.catalog-item {
+  position: relative;
+  display: inline-block;
+  width: 218px;
+  margin-bottom: 20px;
+  border:1px solid #ccc;
+  line-height:20px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.catalog-item .flag {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width:60px;
+  height:60px;
+  text-indent:-1000px;
+  overflow:hidden;
+  z-index:20;
+}
+.catalog-item .flag-new {
+  background:url("../img/new-flag.png")no-repeat 0 0;
+}
+
+.catalog-item .item-actions .buy,
+.catalog-item .item-actions .bookmark {
+  display: block;
+  width: 129px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  padding: 7px 0;
+  border:3px solid #63a63e;
+  border-bottom-color:#367315;
+  background-color:#63a63e;
+  color: #ffffff;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.catalog-item .item-actions .bookmark {
+  color:#32425c;
+  background:white;
+  border-bottom-color:#63a63e;
+}
+
+.catalog-item .item-actions {
+  display: none;
+}
+
+.catalog-item:hover .item-actions{
+  display: block;
+}
+
+.catalog-item .item-actions {
+  position:absolute;
+  top:0;
+  left:0;
+  width:218px;
+  height:88px;
+  padding:40px 0;
+  background-color:rgba(255,255,255,0.9);
+  z-index:10;
+}
+
+.catalog-item .item-image {
+  width: 184px;
+  height: 164px;
+}
+
+.catalog-item .item-image img {
+  max-width: 100%;
+}
+
+.catalog-item .item-title {
+  min-height: 40px;
+  padding: 0 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.catalog-item .item-old-price {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  min-height: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.catalog-item .item-price {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ffffff;
+
+  position:relative;
+  width:80px;
+  margin:10px auto;
+  margin-bottom:20px;
+  padding:11px 30px;
+  color:white;
+  background:#ee3643;
+  border-radius:3px;
+}
+
+.catalog-item .item-price:after {
+  content:"";
+  position:absolute;
+  top:0;
+  right:-20px;
+  width:0;
+  height:0;
+  border:20px solid white;
+  border-left-color:#ee3643;
 }
 
 .pagination-list {
@@ -918,11 +1027,11 @@ legend {
   background-color: #ee3643;
 }
 
-.item-image {
-  width: 220px;
-  height: 318px;
-  margin-bottom: 20px;
+/*.item-image {*/
+  /*width: 220px;*/
+  /*height: 318px;*/
+  /*margin-bottom: 20px;*/
 
-  border: 1px solid #c5c5c5;
-}
+  /*border: 1px solid #c5c5c5;*/
+/*}*/
 
