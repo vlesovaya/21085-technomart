@@ -689,38 +689,55 @@ h2 {
   display: block;
 }
 
-.user-menu-username {
-  display: block;
-
-  padding-top: 15px;
-  padding-bottom: 11px;
-  width: 300px;
-  text-align: center;
-}
-
 .user-block-account {
   display: block;
   margin-bottom: 10px;
   margin-top: 46px;
+  padding-top: 14px;
+  padding-bottom: 11px;
   background-color: #ffffff;
+  width: 300px;
+  position: relative;
+}
+
+.user-menu-username svg {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+
+.user-menu-logout svg {
+  position: absolute;
+  top: 14px;
+  left: 269px;
+
 }
 
 .user-block-account a {
+  display: block;
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
+  padding-left: 47px;
 }
 
 .user-block-account a:hover {
-  opacity: 1;
   color: #32425c;
+}
+
+.user-block-account:hover path {
+  fill: #32425c;
 }
 
 .user-block-account a:focus {
   opacity: 0.3;
   color: #000000;
+}
+
+.user-block-account:focus path {
+  fill: #c5c5c5;
 }
 
 .user-block-menu a {
