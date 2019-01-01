@@ -157,7 +157,7 @@ h2 {
 
 .marker-link {
   display: block;
-  margin-right: 20px;
+  padding-right: 20px;
   padding-top: 14px;
   padding-bottom: 12px;
 
@@ -424,8 +424,6 @@ h2 {
   padding: 0;
   margin: 0;
 }
-
-
 
 .site-navigation a {
   display: block;
