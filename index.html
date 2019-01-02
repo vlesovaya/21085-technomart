@@ -15,10 +15,8 @@
       <div class="container">
         <div class="top-navigation-user">
           <a class="main-header-logo button" href="index.html">Техномарт</a>
-          <form class="search" action="/" method="get">
-            <label class="visually-hidden" for="input-field">Поиск</label>
-            <input class="search-input-field" type="text" name="input-field" id="input-field" placeholder="Поиск:">
-            <button class="search-submit visually-hidden" type="submit">Отправить</button>
+          <form class="search-form" action="/" method="get">
+            <input class="search" id="search" type="search" name="search" placeholder="Поиск:" autofocus>
           </form>
           <a class="navigation-user-link marker-link" href="marker.html">Закладки: 0</a>
           <a class="navigation-user-link cart-link" href="cart.html">Корзина: 0</a>
@@ -205,7 +203,7 @@
       </label>
       <textarea id="user-letter" name="text" rows="4" cols="100" placeholder="В свободной форме"></textarea>
     </p>
-      <button class="send-letter" type="submit" value="Отправить">Отправить</button>
+    <button class="send-letter" type="submit" value="Отправить">Отправить</button>
   </form>
   <div class="modal-bottom"></div>
   <button class="modal-close" type="button" aria-label="Закрыть окно"></button>
