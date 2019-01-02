@@ -459,6 +459,51 @@ h2 {
   background-color: #000000;
 }
 
+.top-products {
+  display: block;
+}
+
+.top-products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top-products .catalog-item {
+  margin: 0;
+}
+
+.top-index {
+  display: flex;
+  background-color: #f9f5f0;
+  margin: 53px 0 20px;
+}
+
+.top-index h2 {
+  margin-left: 28px;
+  margin-top: 33px;
+}
+
+.all-products {
+  display: block;
+  width: 253px;
+  padding: 13px 0;
+  margin: 25px 0 25px 373px;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffffff;
+  background-color: #ee3643;
+
+  border-radius: 3px;
+  border: none;
+}
+
+
 .description .container {
   display: flex;
   justify-content: space-between;
