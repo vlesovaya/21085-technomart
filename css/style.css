@@ -484,11 +484,11 @@ h2 {
   margin-top: 33px;
 }
 
-.all-products {
+.all-products,
+.all-companies {
   display: block;
   width: 253px;
   padding: 13px 0;
-  margin: 25px 0 25px 373px;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
@@ -503,6 +503,43 @@ h2 {
   border: none;
 }
 
+.all-products {
+  margin: 25px 0 25px 373px;
+}
+
+.all-companies {
+  margin: 25px 0 25px 274px;
+}
+
+.companies-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 85px;
+}
+
+.companies-item {
+  position: relative;
+  display: inline-block;
+  width: 220px;
+  height: 145px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.companies-item img {
+  padding-top: 25px;
+}
+
+.companies-item:nth-child(4n) {
+  margin-right: 0;
+}
 
 .description .container {
   display: flex;
