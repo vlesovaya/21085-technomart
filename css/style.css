@@ -514,7 +514,7 @@ h2 {
 .companies-list {
   display: flex;
   flex-wrap: wrap;
-  width: 960px;
+  width: 940px;
   list-style: none;
   padding: 0;
   margin-bottom: 85px;
@@ -523,7 +523,7 @@ h2 {
 .companies-item {
   position: relative;
   display: inline-block;
-  width: 220px;
+  width: 218px;
   height: 145px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -540,6 +540,174 @@ h2 {
 .companies-item:nth-child(4n) {
   margin-right: 0;
 }
+
+
+/*СЛАЙДЕР-2*/
+
+.services {
+  display: block;
+  background-color: #f4f8fa;
+}
+
+.service-block {
+  display: block;
+  padding-top: 68px;
+  padding-bottom: 360px;
+}
+
+
+.service-block-left {
+  position: relative;
+  display: block;
+  float: left;
+  width: 940px;
+  margin: 0 auto;
+  margin-top: 73px;
+}
+
+.service-toggle::before {
+  content: "";
+
+  position: absolute;
+
+  top: -35px;
+  left: 252px;
+
+  width: 10px;
+  height: 279px;
+
+  background-image: url("../img/slider-shadow.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.service-toggle {
+  position: absolute;
+  z-index: 100;
+  bottom: 94%;
+  left: 0%;
+  width: 60px;
+  height: 15px;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.service-touch-button {
+  display: none;
+}
+
+.service-touch-button h3 {
+  display: block;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #32425c;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.service-touch-button p {
+  display: block;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.delivery p {
+  display: block;
+  width: 280px;
+}
+
+.guarantee p {
+  display: block;
+  width: 380px;
+}
+
+.credit p{
+  display: block;
+  width: 290px;
+}
+
+.credit .button {
+  display: block;
+  width: 195px;
+  padding: 14px;
+  margin-top: 30px;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+}
+
+.additional-text {
+  display: block;
+  max-width: 190px;
+}
+
+.service-toggle label {
+  display: block;
+  width: 240px;
+  text-align: left;
+  padding: 15px 0 15px 22px;
+  color: #ffffff;
+  background-color: #32425c;
+  border-top: 1px solid #405069;
+  border-bottom: 1px solid #293449;
+}
+
+.delivery:nth-child(1) {
+  background-image: url("../img/delivery.png");
+  background-repeat: no-repeat;
+  background-position: 100% 20px;
+}
+
+.guarantee:nth-child(2) {
+  background-image: url("../img/guarantee.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+.credit:nth-child(3) {
+  background-image: url("../img/credit.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+#arrow-1:checked ~ .service-block-right .delivery:nth-child(1),
+#arrow-2:checked ~ .service-block-right .guarantee:nth-child(2),
+#arrow-3:checked ~ .service-block-right .credit:nth-child(3) {
+  display: block;
+}
+
+.service-touch-button {
+  margin-left: 320px;
+  padding-bottom: 132px;
+}
+
+#arrow-1:checked~.service-toggle label[for="arrow-1"],
+#arrow-2:checked~.service-toggle label[for="arrow-2"],
+#arrow-3:checked~.service-toggle label[for="arrow-3"] {
+  color: #32425c;
+  background-color: #ffffff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  outline: none;
+}
+
+
+
+/*_________________________________________________*/
 
 .description .container {
   display: flex;
