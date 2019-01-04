@@ -150,28 +150,6 @@ h2 {
   background-position: 17px 50%;
 }
 
-/*input[type="search"]::before {*/
-  /*content: "";*/
-
-  /*position: absolute;*/
-
-  /*top: 14px;*/
-  /*left: 17px;*/
-
-  /*width: 17px;*/
-  /*height: 17px;*/
-
-  /*background-image: url("../img/icon-search.svg");*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: 0 0;*/
-  /*opacity: 0.3;*/
-  /*cursor: pointer;*/
-/*}*/
-
-/*.search:hover {*/
-  /*opacity: 1;*/
-/*}*/
-
 .marker-link {
   display: block;
   width: 125px;
