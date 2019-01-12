@@ -1635,6 +1635,97 @@ legend {
   display: flex;
 }
 
+.filter h3 {
+  display: block;
+  width: 203px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #f7f3ec;
+
+  padding: 13px 0 15px 19px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.filter-right {
+  display: flex;
+  align-items: center;
+  background-color: #f7f3ec;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.filter-right h3 {
+  display: inline-block;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: 19px;
+  margin-right: 140px;
+}
+
+.filter-right a {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #ee3643;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.filter-right .active {
+  opacity: 1;
+  color: #ee3643;
+  text-decoration: none;
+}
+
+.filter-right a:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-decoration-color: #ee3643;
+}
+
+.active path {
+  fill: #ee3643;
+}
+
+.filter-right ul {
+  list-style: none;
+  margin: 0;
+}
+
+.filter-right-item {
+  display: flex;
+  justify-content: space-between;
+  width: 355px;
+  padding: 0;
+}
+
+.filter-item-range {
+  display: inline-block;
+  width: 45px;
+  padding: 0;
+  margin-left: 46px;
+  margin-right: 15px;
+}
+
+.filter-arrow-down {
+  margin-right: 19px;
+}
+
+/*_______________________________*/
+
 .catalog-items {
   margin-bottom: 52px;
 
