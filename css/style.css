@@ -220,6 +220,7 @@ h2 {
   padding-bottom: 12px;
   padding-left: 21px;
   padding-right: 21px;
+  text-align: center;
 }
 
 .navigation-user-link:hover {
@@ -1307,11 +1308,77 @@ h2 {
 }
 
 .breadcrumbs-item {
+  display: inline-block;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
+}
+
+
+
+.products-catalog {
+  padding-left: 42px;
+  position: relative;
+}
+
+.tools-breadcrumbs {
+  padding-left: 39px;
+  position: relative;
+}
+
+.perforators-breadcrumbs {
+  padding-left: 43px;
+  position: relative;
+}
+
+.products-catalog:before {
+  display: inline-block;
+  content: "";
+
+  position: absolute;
+
+  top: 3px;
+  left: 15px;
+
+  width: 8px;
+  height: 12px;
+
+  background-image: url("../img/icon-right-small.svg");
+  background-repeat: no-repeat;
+}
+
+.tools-breadcrumbs:before {
+  display: inline-block;
+  content: "";
+
+  position: absolute;
+
+  top: 3px;
+  left: 16px;
+
+  width: 8px;
+  height: 12px;
+
+  background-image: url("../img/icon-right-small.svg");
+  background-repeat: no-repeat;
+}
+
+.perforators-breadcrumbs:before {
+  display: inline-block;
+  content: "";
+
+  position: absolute;
+
+  top: 3px;
+  left: 18px;
+
+  width: 8px;
+  height: 12px;
+
+  background-image: url("../img/icon-right-small.svg");
+  background-repeat: no-repeat;
 }
 
 /*ФИЛЬТРЫ*/
@@ -1536,9 +1603,11 @@ legend {
   margin-top: 24px;
 }
 
+
 .catalog-content h2 {
   display: block;
   margin: 0;
+  padding: 33px 0 35px 30px;
   background-color: #f2f6f8;
 }
 
