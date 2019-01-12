@@ -1314,6 +1314,8 @@ h2 {
   text-transform: uppercase;
 }
 
+/*ФИЛЬТРЫ*/
+
 legend {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
@@ -1326,6 +1328,111 @@ legend {
 .filter-item {
   display: block;
   margin-top: 10px;
+}
+
+.filter-price {
+  width: 220px;
+  margin-right: 20px;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.range-filter {
+  width: 220px;
+  margin-top: 23px;
+}
+
+.range-controls {
+  position: relative;
+
+  height: 41px;
+  margin-bottom: 15px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  background-color: #f7f3ec;
+
+  border-radius: 5px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 0;
+
+  width: 4px;
+  height: 4px;
+  padding: 0;
+
+  border: 8px solid #ffffff;
+  background-color: #ababab;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 20px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
+
+.price-controls {
+  font-size: 0;
+  margin-bottom: 25px;
+}
+
+.price-controls label {
+  display: inline-block;
+
+  font-size: 16px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.price-controls input {
+  width: 95px;
+  padding: 10px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+
+  border: none;
+  border-radius: 5px;
+  background: #f7f3ec;
+}
+
+.price-controls input:nth-child(1) {
+  margin-left: 0;
+}
+
+.price-controls input:nth-child(2) {
+  margin-right: 0;
+}
+
+.max-price {
+  text-align: right;
 }
 
 .filter-input[type="radio"] {
@@ -1444,6 +1551,7 @@ legend {
 .filter-company {
   width: 220px;
   margin-right: 20px;
+  margin-top: 21px;
   border: none;
 }
 
@@ -1452,20 +1560,6 @@ legend {
   margin: 0;
   border: none;
   margin-bottom: 64px;
-}
-
-.range-controls {
-  position: relative;
-
-  height: 41px;
-  margin-bottom: 15px;
-  padding-top: 39px;
-  padding-right: 20px;
-  padding-left: 20px;
-
-  background-color: #f1f1f1;
-
-  border-radius: 5px;
 }
 
 .catalog-columns {
