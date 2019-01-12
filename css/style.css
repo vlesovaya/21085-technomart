@@ -1652,6 +1652,40 @@ legend {
 }
 
 
+.about {
+  display: block;
+  min-width:1200px;
+  background-color: #f2f6f8;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+.content {
+  display: block;
+  margin: 0 auto;
+}
+
+.content h2 {
+  display: block;
+  margin-bottom: 40px;
+  font-famyly: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.content p {
+  display: block;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  margin:0;
+}
+
+
 /*СТИЛИЗАЦИЯ МОДАЛЬНЫХ ОКОН*/
 
 
