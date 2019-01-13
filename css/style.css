@@ -1954,6 +1954,10 @@ legend {
   z-index: 1000;
 }
 
+.modal-write-us {
+  display: none;
+}
+
 ::placeholder {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
@@ -2181,4 +2185,35 @@ legend {
   padding-top: 14px;
   padding-bottom: 12px;
   margin-top: 80px;
+}
+
+.modal-map {
+  width: 940px;
+  height: 448px;
+}
+
+.modal-map {
+  top: 20%;
+  left: 22%;
+  width: 940px;
+  box-sizing:border-box;
+}
+
+.modal-map-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  width: 21px;
+  height: 21px;
+
+  opacity: 1;
+  font-size: 0;
+  background-color: transparent;
+  background-image: url("../img/icon-close.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  border: 0;
+
+  cursor: pointer;
 }
