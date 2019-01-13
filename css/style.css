@@ -1970,10 +1970,6 @@ legend {
   z-index: 1000;
 }
 
-.modal-write-us {
-  display: none;
-}
-
 ::placeholder {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
