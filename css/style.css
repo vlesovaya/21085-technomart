@@ -1998,7 +1998,6 @@ legend {
   margin-bottom: 8px;
   padding: 7px 7px;
   border: 3px solid #63a63e;
-  border-bottom-color: #367315;
   background-color: #63a63e;
   color: #ffffff;
   font-family: "Cuprum", Arial, sans-serif;
@@ -2009,6 +2008,16 @@ legend {
   border-radius: 3px;
 }
 
+.catalog-item .item-actions .buy {
+  border-bottom-color: #367315;
+}
+
+.catalog-item .item-actions .bookmark {
+  color: #32425c;
+  background: white;
+  border-color: #63a63e;
+}
+
 .item-actions .buy:hover {
   background-color: #5fbb2d;
   border: 3px solid #5fbb2d;
@@ -2017,6 +2026,14 @@ legend {
 .item-actions .buy:focus {
   background-color: #518534;
   border: 3px solid #518534;
+}
+
+.item-actions .bookmark:hover {
+  border: 3px solid #32425c;
+}
+
+.item-actions .bookmark:focus {
+  opacity: 0.3;
 }
 
 .item-actions .buy::before {
@@ -2039,12 +2056,6 @@ legend {
 
 .item-actions .buy:hover::before {
   opacity: 1;
-}
-
-.catalog-item .item-actions .bookmark {
-  color: #32425c;
-  background: white;
-  border-bottom-color: #63a63e;
 }
 
 .catalog-item .item-actions {
