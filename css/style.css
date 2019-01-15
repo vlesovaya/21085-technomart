@@ -58,7 +58,7 @@ h2 {
 
 .main-navigation {
   background-color: #f3f7f8;
-  padding-bottom: 60px;
+  padding-bottom: 65px;
 }
 
 .top-navigation {
@@ -72,28 +72,47 @@ h2 {
   display: block;
 }
 
-.main-header-logo,
-.main-footer-logo {
+.main-header-logo {
   display: block;
   width: 106px;
-  height: 18px;
+  max-height: 47px;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 24px;
   line-height: 24px;
+  font-weight: normal;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #ee3643;
   -webkit-box-shadow: 0 5px 0 #b52933;
   box-shadow: 0 5px 0 #b52933;
 
-  padding: 13px 57px 16px 57px;
+  padding: 10px 57px;
+}
+
+.main-footer-logo {
+  display: block;
+  width: 138px;
+  max-height: 68px;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ee3643;
+  -webkit-box-shadow: 0 5px 0 #b52933;
+  box-shadow: 0 5px 0 #b52933;
+
+  padding: 17px 41px;
 }
 
 .top-navigation-user {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-height: 42px;
   width: 100%;
   float: left;
 }
@@ -119,7 +138,7 @@ h2 {
 }
 
 .search-form {
-  width: 260px;
+  width: 270px;
   position: relative;
   margin: 0;
 }
@@ -157,8 +176,8 @@ h2 {
 }
 
 .search {
-  width: 260px;
-  height: 47px;
+  width: 270px;
+  height: 42px;
   font-size: 100%;
   padding-left: 49px;
   background-color: #293449;
@@ -170,8 +189,6 @@ h2 {
   background-position: 17px 50%;
   opacity: 0.3;
 }
-
-
 
 .search-form input[type="search"]:focus {
   background: #ffffff;
@@ -185,8 +202,8 @@ h2 {
 
 .marker-link {
   display: block;
-  width: 125px;
-  padding: 14px 0 12px 45px;
+  width: 100px;
+  padding: 12px 0 12px 45px;
   position: relative;
 }
 
@@ -195,7 +212,7 @@ h2 {
 
   position: absolute;
 
-  top: 14px;
+  top: 12px;
   left: 17px;
 
   width: 14px;
@@ -210,13 +227,13 @@ h2 {
 
 .cart-link {
   display: block;
-  margin-right: -10px;
-  padding-top: 14px;
+  max-width: 150px;
+  padding-top: 12px;
   padding-bottom: 12px;
 
   position: relative;
   padding-left: 50px;
-  padding-right: 25px;
+  padding-right: 35px;
 }
 
 .cart-link::before {
@@ -224,8 +241,8 @@ h2 {
 
   position: absolute;
 
-  top: 14px;
-  left: 16px;
+  top: 12px;
+  left: 22px;
 
   width: 15px;
   height: 15px;
@@ -248,8 +265,8 @@ h2 {
 
 .order-link {
   display: block;
-  width: 108px;
-  padding-top: 14px;
+  max-width: 150px;
+  padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 21px;
   padding-right: 21px;
@@ -305,8 +322,7 @@ h2 {
 
   display: inline-block;
   margin-top: 49px;
-  margin-right: 54px;
-  margin-bottom: 43px;
+  margin-bottom: 40px;
   margin-left: 50px;
 
   font-family: "Cuprum", Arial, sans-serif;
@@ -321,7 +337,7 @@ h2 {
   display: block;
   width: 270px;
   margin-top: 46px;
-  margin-bottom: 43px;
+  margin-bottom: 37px;
 }
 
 .top-info-address p {
@@ -333,9 +349,11 @@ h2 {
 .top-info-phone {
   display: block;
 
-  padding-top: 11px;
-  padding-bottom: 11px;
-  margin-bottom: 10px;
+  max-width: 270px;
+  max-height: 45px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-bottom: 5px;
   border: 3px solid #ffffff;
 
   font-family: "Cuprum", Arial, sans-serif;
@@ -347,7 +365,7 @@ h2 {
 
 .top-info-address .top-info-phone {
   position: relative;
-  padding-left: 65px;
+  padding-left: 74px;
 }
 
 .top-info-address .top-info-phone::before {
@@ -355,7 +373,7 @@ h2 {
 
   position: absolute;
 
-  top: 13px;
+  top: 9px;
   left: 15px;
 
   width: 19px;
@@ -382,7 +400,7 @@ h2 {
   flex-wrap: wrap;
   padding: 0;
   margin-top: 46px;
-  margin-bottom: 67px;
+  margin-bottom: 63px;
   list-style: none;
 }
 
@@ -399,8 +417,9 @@ h2 {
 .login-link {
   display: block;
   width: 121px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  max-height: 45px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   margin-right: 10px;
 }
 
@@ -437,9 +456,14 @@ h2 {
 .checkin {
   display: inline-block;
   width: 150px;
+  max-height: 45px;
   text-align: center;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.navigation-wrapper {
+  display: block;
 }
 
 .site-navigation {
@@ -456,17 +480,18 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  max-width: 940px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
+
 }
 
 .site-navigation a {
   display: block;
-  padding: 20px 31px;
+  padding: 19px 31px;
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   line-height: 17px;
@@ -568,7 +593,7 @@ h2 {
   height: 266px;
   margin: 0;
 
-  background-color: #ab9a85;
+  /*background-color: #ab9a85;*/
 }
 
 .slider-list {
@@ -601,7 +626,7 @@ h2 {
 
 .slider-item {
   display: none;
-  padding: 26px 0 22px 0;
+  padding: 24px 0 25px 0;
   margin: 0;
 }
 
@@ -651,7 +676,7 @@ h2 {
 }
 
 .arrow-right {
-  right: 25px;
+  right: 23px;
   background-image: url("../img/icon-right.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -673,12 +698,11 @@ h2 {
   text-transform: uppercase;
   margin: 0;
   margin-left: 24px;
-  margin-bottom: 10px;
 }
 
 .slider-item span {
   display: block;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: normal;
@@ -699,7 +723,7 @@ h2 {
   text-transform: uppercase;
   text-align: center;
 
-  margin-top: 110px;
+  margin-top: 122px;
   margin-left: 25px;
   padding: 10px 0;
   background-color: #ee3643;
@@ -714,7 +738,7 @@ h2 {
   font-weight: bold;
   color: #ffffff;
 
-  margin-top: 26px;
+  margin-top: 20px;
   margin-left: 22px;
   margin-bottom: 0;
 }
@@ -804,16 +828,30 @@ h2 {
   margin: 53px 0 20px;
 }
 
+.top-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f9f5f0;
+  margin: 21px 0 20px;
+}
+
 .top-index h2 {
   margin-left: 28px;
-  margin-top: 33px;
+  margin-top: 30px;
+}
+
+.top-company h2 {
+  margin-left: 24px;
+  margin-top: 30px;
 }
 
 .all-products,
 .all-companies {
   display: block;
-  width: 253px;
-  padding: 13px 0;
+  width: 252px;
+  max-height: 38px;
+  padding: 10px 0;
 
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
@@ -845,14 +883,14 @@ h2 {
   width: 940px;
   list-style: none;
   padding: 0;
-  margin-bottom: 85px;
+  margin-bottom: 65px;
 }
 
 .companies-item {
   position: relative;
   display: inline-block;
   width: 218px;
-  height: 145px;
+  height: 143px;
   margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -862,7 +900,8 @@ h2 {
 }
 
 .companies-item img {
-  padding-top: 25px;
+  display: block;
+  padding: 24px 8px;
 }
 
 .companies-item:nth-child(4n) {
@@ -879,10 +918,27 @@ h2 {
 
 .service-block {
   display: block;
-  padding-top: 68px;
-  padding-bottom: 360px;
+  padding-top: 40px;
+  padding-bottom: 355px;
 }
 
+.service-block h2 {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.service-block p {
+  display: block;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: normal;
+  margin: 0;
+}
 
 .service-block-left {
   position: relative;
@@ -890,7 +946,7 @@ h2 {
   float: left;
   width: 940px;
   margin: 0 auto;
-  margin-top: 73px;
+  margin-top: 65px;
 }
 
 .service-toggle::before {
@@ -899,7 +955,7 @@ h2 {
   position: absolute;
 
   top: -35px;
-  left: 252px;
+  left: 233px;
 
   width: 10px;
   height: 279px;
@@ -985,7 +1041,8 @@ h2 {
 
 .service-toggle label {
   display: block;
-  width: 240px;
+  width: 220px;
+  max-height: 61px;
   text-align: left;
   padding: 15px 0 15px 22px;
   color: #ffffff;
@@ -1044,7 +1101,7 @@ h2 {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 82px;
+  margin-top: 53px;
   margin-bottom: 86px;
 }
 
@@ -1060,6 +1117,7 @@ h2 {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
+  font-weight: normal;
   color: #000000;
   background-color: #ffffff;
 }
@@ -1071,7 +1129,7 @@ h2 {
 .description-about {
   display: block;
   width: 535px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .description-delivery {
@@ -1092,15 +1150,15 @@ h2 {
   width: 25px;
   height: 2px;
   background-color: #fb565a;
-  margin-right: 9px;
+  margin-right: 10px;
   margin-bottom: 5px;
-  margin-left: -30px;
+  margin-left: -40px;
   vertical-align: middle;
 }
 
 .delivery-list {
   display: block;
-  margin-top: 30px;
+  margin-top: 23px;
   margin-bottom: 0;
   list-style: none;
 }
@@ -1127,20 +1185,22 @@ h2 {
 .description-left-button {
   display: block;
   width: 220px;
-  padding: 14px 0;
-  margin-top: 30px;
+  max-height: 38px;
+  padding: 10px 0;
+  margin-top: 37px;
 }
 
 .message-button {
   display: block;
   width: 300px;
-  padding: 14px 0;
+  max-height: 38px;
+  padding: 10px 0;
   margin-top: 40px;
 }
 
 .contact-map {
   display: block;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 .main-footer {
@@ -1154,11 +1214,26 @@ h2 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   background-color: #32425c;
+  padding-bottom: 30px;
 }
 
 .main-footer-logo {
   display: block;
   margin-bottom: 33px;
+}
+
+.footer-contacts {
+  display: block;
+  width: 390px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-navigation {
+  display: block;
+  width: 550px;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-contacts p {
@@ -1179,13 +1254,16 @@ h2 {
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 550px;
+  margin-top: 38px;
   margin-bottom: 33px;
+  padding: 0;
 }
 
 .site-footer-navigation a {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
+  font-weight: normal;
   color: #ffffff;
 }
 
@@ -1200,6 +1278,7 @@ h2 {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-left: 25px;
+  padding: 0;
 }
 
 .catalog-footer-navigation a {
@@ -1210,6 +1289,8 @@ h2 {
 }
 
 .footer-bottom {
+  display: block;
+  padding-top: 23px;
   background-color: #293449;
 }
 
@@ -1238,13 +1319,15 @@ h2 {
 }
 
 .footer-bottom-copyright {
-  display: inline-block;
+  display: block;
   width: 230px;
-  margin-right: 120px;
+  margin-right: 160px;
 }
 
 .footer-bottom-social {
-  margin-right: 120px;
+  display: inline-block;
+  width: 135px;
+  margin-right: 115px;
 }
 
 .social-buttons {
@@ -1281,6 +1364,12 @@ h2 {
 .social-button:hover,
 .social-button:focus {
   background-color: #ee3643;
+}
+
+.footer-feedback {
+  display: block;
+  width: 300px;
+  margin: 0;
 }
 
 .email {
@@ -1854,6 +1943,7 @@ legend {
   position: relative;
   display: inline-block;
   width: 218px;
+  max-height: 318px;
   margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -1892,10 +1982,10 @@ legend {
 .catalog-item .item-actions .buy,
 .catalog-item .item-actions .bookmark {
   display: block;
-  width: 129px;
+  max-width: 129px;
   margin: 0 auto;
   margin-bottom: 8px;
-  padding: 7px 0;
+  padding: 7px 7px;
   border: 3px solid #63a63e;
   border-bottom-color: #367315;
   background-color: #63a63e;
@@ -1933,28 +2023,26 @@ legend {
   z-index: 10;
 }
 
-.catalog-item .item-image {
-  width: 184px;
-  height: 164px;
-}
-
 .catalog-item .item-image img {
   max-width: 100%;
 }
 
 .catalog-item .item-title {
-  min-height: 40px;
+  max-height: 40px;
   padding: 0 25px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .catalog-item .item-old-price {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   min-height: 18px;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 10px;
   color: #999999;
   text-decoration: line-through;
 }
@@ -1968,10 +2056,11 @@ legend {
 
   position: relative;
   width: 80px;
+  max-height: 38px;
   margin: 10px auto;
   margin-bottom: 20px;
-  padding: 11px 30px;
-  color: white;
+  padding: 10px 30px;
+  color: #ffffff;
   background: #ee3643;
   border-radius: 3px;
 }
@@ -1983,7 +2072,7 @@ legend {
   right: -20px;
   width: 0;
   height: 0;
-  border: 20px solid white;
+  border: 19px solid white;
   border-left-color: #ee3643;
 }
 
