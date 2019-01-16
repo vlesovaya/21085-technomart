@@ -202,7 +202,7 @@ h2 {
 
 .marker-link {
   display: block;
-  width: 100px;
+  width: 105px;
   padding: 12px 0 12px 45px;
   position: relative;
 }
@@ -227,24 +227,24 @@ h2 {
 
 .cart-link {
   display: block;
-  max-width: 150px;
+  width: 100px;
   padding-top: 12px;
   padding-bottom: 12px;
 
   position: relative;
   padding-left: 50px;
-  padding-right: 35px;
+  padding-right: 0;
 }
 
 .cart-link-active {
   display: block;
-  max-width: 150px;
+  width: 100px;
   padding-top: 12px;
   padding-bottom: 12px;
 
   position: relative;
   padding-left: 50px;
-  padding-right: 25px;
+  padding-right: 0;
 }
 
 .cart-link::before {
@@ -253,7 +253,7 @@ h2 {
   position: absolute;
 
   top: 12px;
-  left: 22px;
+  left: 19px;
 
   width: 15px;
   height: 15px;
@@ -360,7 +360,7 @@ h2 {
 .top-info-phone {
   display: block;
 
-  max-width: 270px;
+  width: 192px;
   max-height: 45px;
   padding-top: 9px;
   padding-bottom: 9px;
@@ -394,6 +394,18 @@ h2 {
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+
+.inner-page .top-info-address {
+  display: block;
+  margin-left: 20px;
+}
+
+/*.inner-page .top-info-address p {*/
+  /*display: block;*/
+  /*text-align: center;*/
+  /*margin: 0;*/
+/*}*/
+
 
 .information p {
   font-family: "Cuprum", Arial, sans-serif;
@@ -893,7 +905,7 @@ h2 {
   width: 940px;
   list-style: none;
   padding: 0;
-  margin-bottom: 65px;
+  margin-bottom: 70px;
 }
 
 .companies-item {
@@ -1378,8 +1390,8 @@ h2 {
 
 .footer-feedback {
   display: block;
-  width: 300px;
-  margin: 0;
+  width: 285px;
+  margin:0;
 }
 
 .email {
@@ -1393,6 +1405,7 @@ h2 {
 
 .developed-by {
   display: block;
+  margin-right: 15px;
 }
 
 .developed-by p {
@@ -1431,8 +1444,8 @@ h2 {
   display: block;
   margin-bottom: 10px;
   margin-top: 46px;
-  padding-top: 14px;
-  padding-bottom: 11px;
+  padding-top: 12px;
+  padding-bottom: 9px;
   background-color: #ffffff;
   width: 300px;
   position: relative;
@@ -1496,7 +1509,7 @@ h2 {
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 215px;
-  padding-left: 15px;
+  padding-left: 17px;
 }
 
 .user-block-menu a:hover {
@@ -1518,20 +1531,18 @@ h2 {
   text-transform: uppercase;
 }
 
-
-
 .products-catalog {
-  padding-left: 42px;
+  padding-left: 35px;
   position: relative;
 }
 
 .tools-breadcrumbs {
-  padding-left: 39px;
+  padding-left: 38px;
   position: relative;
 }
 
 .perforators-breadcrumbs {
-  padding-left: 43px;
+  padding-left: 40px;
   position: relative;
 }
 
@@ -1541,8 +1552,8 @@ h2 {
 
   position: absolute;
 
-  top: 3px;
-  left: 15px;
+  top: 2px;
+  left: 10px;
 
   width: 8px;
   height: 12px;
@@ -1557,7 +1568,7 @@ h2 {
 
   position: absolute;
 
-  top: 3px;
+  top: 2px;
   left: 16px;
 
   width: 8px;
@@ -1573,8 +1584,8 @@ h2 {
 
   position: absolute;
 
-  top: 3px;
-  left: 18px;
+  top: 2px;
+  left: 15px;
 
   width: 8px;
   height: 12px;
@@ -1592,6 +1603,15 @@ legend {
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
+  padding: 0;
+}
+
+.filter-company legend {
+  margin-bottom: 10px;
+}
+
+.filter-power legend {
+  margin-bottom: 10px;
 }
 
 .filter-item {
@@ -1609,14 +1629,14 @@ legend {
 
 .range-filter {
   width: 220px;
-  margin-top: 23px;
+  margin-top: 12px;
 }
 
 .range-controls {
   position: relative;
 
   height: 41px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
@@ -1747,7 +1767,7 @@ legend {
   display: inline-block;
   line-height: 20px;
   font-size: 15px;
-  vertical-align: top;
+  /*vertical-align: top;*/
   cursor: pointer;
 }
 
@@ -1771,13 +1791,20 @@ legend {
   background-image: url("../img/checkbox-on.svg");
 }
 
+.filter-option {
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
 .filter-option label {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
   color: #000000;
   text-transform: uppercase;
-  padding-left: 35px;
+  padding-top: 4px;
+  padding-left: 33px;
 }
 
 .show {
@@ -1802,15 +1829,16 @@ legend {
 
 .breadcrumbs {
   display: inline-block;
-  margin-bottom: 24px;
-  margin-top: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 
 .catalog-content h2 {
   display: block;
   margin: 0;
-  padding: 33px 0 35px 30px;
+  max-height: 89px;
+  padding: 29px 0 29px 30px;
   background-color: #f2f6f8;
 }
 
@@ -1821,16 +1849,21 @@ legend {
 }
 
 .filter-company {
+  display: block;
   width: 220px;
   margin-right: 20px;
-  margin-top: 21px;
+  margin-top: 17px;
+  padding-bottom: 10px;
   border: none;
+  border-bottom: 1px solid #e5e5e5;
 }
+
 
 .filter-power {
   width: 220px;
   margin: 0;
   border: none;
+  margin-top: 17px;
   margin-bottom: 64px;
 }
 
@@ -1843,6 +1876,7 @@ legend {
 .filter h3 {
   display: block;
   width: 203px;
+  max-height: 38px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -1851,7 +1885,7 @@ legend {
   color: #000000;
   background-color: #f7f3ec;
 
-  padding: 13px 0 15px 19px;
+  padding: 10px 0 10px 19px;
   border-radius: 3px;
   margin-top: 20px;
 }
@@ -1866,6 +1900,7 @@ legend {
   background-color: #f7f3ec;
   border-radius: 3px;
   margin-top: 20px;
+  padding: 10px 0;
 }
 
 .filter-right h3 {
@@ -1876,8 +1911,8 @@ legend {
   font-weight: normal;
   text-transform: uppercase;
   color: #000000;
-  margin-left: 19px;
-  margin-right: 140px;
+  max-height: 38px;
+  margin: 0 140px 0 19px;
 }
 
 .filter-right a {
@@ -1943,17 +1978,17 @@ legend {
 /*_______________________________*/
 
 .catalog-items {
-  margin-bottom: 52px;
-
+  display: block;
   width: 700px;
   margin: 20px auto;
+  margin-bottom: 30px;
 }
 
 .catalog-item {
   position: relative;
   display: inline-block;
   width: 218px;
-  max-height: 318px;
+  max-height: 316px;
   margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -2145,7 +2180,7 @@ legend {
 }
 
 .pagination-item {
-  margin-right: 10px;
+  margin-right: 9px;
   margin-bottom: 60px;
 }
 
@@ -2192,7 +2227,7 @@ legend {
   display: block;
   min-width:1200px;
   background-color: #f2f6f8;
-  padding-top: 68px;
+  padding-top: 65px;
   padding-bottom: 68px;
 }
 
@@ -2203,7 +2238,8 @@ legend {
 
 .content h2 {
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
+  margin-top: 0;
   font-famyly: "Cuprum", Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
