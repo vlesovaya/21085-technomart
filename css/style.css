@@ -1282,6 +1282,7 @@ h2 {
   color: #ffffff;
 }
 
+
 .catalog-footer-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1301,6 +1302,15 @@ h2 {
   font-size: 18px;
   line-height: 24px;
   color: #ffd180;
+}
+
+.footer-navigation a:hover {
+  text-decoration: underline;
+}
+
+.footer-navigation a:focus {
+  text-decoration: none;
+  opacity: 0.5;
 }
 
 .footer-bottom {
