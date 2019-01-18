@@ -1,6 +1,6 @@
 html,
 body {
-  min-width: 1200px;
+  min-width: 960px;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
   font-weight: 400;
   color: #000000;
 
-  min-width: 1200px;
+  min-width: 960px;
 }
 
 .container {
