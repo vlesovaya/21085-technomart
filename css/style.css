@@ -939,7 +939,7 @@ a {
   width: 940px;
   list-style: none;
   padding: 0;
-  margin-bottom: 70px;
+  margin-bottom: 68px;
 }
 
 .companies-item {
@@ -971,6 +971,8 @@ a {
 .services {
   display: block;
   background-color: #f4f8fa;
+  margin: 0;
+  padding: 0;
 }
 
 .service-block {
@@ -990,6 +992,7 @@ a {
 
 .service-block p {
   display: block;
+  width: 460px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
@@ -1002,6 +1005,7 @@ a {
   display: block;
   float: left;
   width: 940px;
+  min-height: 305px;
   margin: 0 auto;
   margin-top: 65px;
 }
@@ -1063,16 +1067,22 @@ a {
 .delivery p {
   display: block;
   width: 280px;
+  max-height: 170px;
+  overflow: hidden;
 }
 
 .guarantee p {
   display: block;
   width: 380px;
+  max-height: 170px;
+  overflow: hidden;
 }
 
 .credit p{
   display: block;
   width: 290px;
+  max-height: 170px;
+  overflow: hidden;
 }
 
 .credit .button {
@@ -1192,6 +1202,7 @@ a {
   display: block;
   width: 535px;
   margin-bottom: 25px;
+
 }
 
 .description-delivery {
@@ -1286,7 +1297,7 @@ a {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   background-color: #32425c;
-  padding-bottom: 30px;
+  padding-bottom: 48px;
 }
 
 .main-footer-logo {
@@ -1888,10 +1899,6 @@ a {
 .filter-input:disabled + label {
   opacity: 0.3;
 }
-
-
-
-
 
 .filter-option {
   display: block;
