@@ -858,10 +858,12 @@ a {
 
 .companies-item:hover,
 .companies-item:focus {
+  -webkit-box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
   box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
 }
 
 .companies-item:active {
+  -webkit-box-shadow: 0 5px 10px rgba(41, 52, 73, 0.5);
   box-shadow: 0 5px 10px rgba(41, 52, 73, 0.5);
 }
 
@@ -2116,6 +2118,7 @@ a {
 }
 
 .catalog-item:hover {
+  -webkit-box-shadow: 0 5px 10px rgba(41, 52, 73, 0.5);
   box-shadow: 0 5px 10px rgba(41, 52, 73, 0.5);
 }
 
@@ -2246,6 +2249,7 @@ a {
 
   white-space: normal;
   overflow: hidden;
+  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
 
