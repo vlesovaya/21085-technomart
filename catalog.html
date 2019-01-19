@@ -6,7 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/min-style.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
 </head>
 <body class="inner-page">
 <header class="main-header">
@@ -27,9 +27,10 @@
     <div class="information">
       <div class="container">
         <div class="top-information">
-          <h1>Интернет-магазин<br>
-            строительных материалов<br>
-            и инструментов для ремонта</h1>
+          <div class="title-about-us">
+            <h1>Интернет-магазин строительных материалов</h1>
+            <h1>и инструментов для ремонта</h1>
+          </div>
           <div class="top-info-address">
             <span class="top-info-phone">+7 (812) 555-05-55</span>
             <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -170,12 +171,16 @@
               <li><a href="functional.html">По функционалу</a></li>
             </ul>
             <div class="filter-item-range">
-                <a href="#" class="filter-arrow-down active">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 0L0 10h11z"/></svg>
-                </a>
-                <a href="#" class="filter-arrow-up">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 10L0 0h11"/></svg>
-                </a>
+              <a href="#" class="filter-arrow-up active" alt="По возрастанию">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                  <path fill="#231F20" d="M5.5 0L0 10h11z"/>
+                </svg>
+              </a>
+              <a href="#" class="filter-arrow-down" alt="По убыванию">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                  <path fill="#231F20" d="M5.5 10L0 0h11"/>
+                </svg>
+              </a>
             </div>
           </div>
           <div class="catalog-items">
@@ -294,16 +299,16 @@
           <div class="catalog-pagination">
             <ul class="pagination-list">
               <li class="pagination-item pagination-item-current">
-                <a class="page-button active-button">1</a>
+                <a class="page-button active-button" alt="1">1</a>
               </li>
               <li class="pagination-item">
-                <a href="#" class="page-button">2</a>
+                <a href="#" class="page-button" alt="2">2</a>
               </li>
               <li class="pagination-item">
-                <a href="#" class="page-button">3</a>
+                <a href="#" class="page-button" alt="3">3</a>
               </li>
               <li class="pagination-item">
-                <a href="#" class="page-button-next">Следующая</a>
+                <a href="#" class="page-button-next" alt="Следующая">Следующая</a>
               </li>
             </ul>
           </div>
@@ -331,9 +336,8 @@
         <section class="footer-contacts">
           <h2 class="visually-hidden">Наши контакты</h2>
           <a class="main-footer-logo" href="index.html">Техномарт</a>
-          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-            +7 (812) 555-05-55
-          </p>
+          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <p>+7 (812) 555-05-55</p>
         </section>
         <section class="footer-navigation">
           <h2 class="visually-hidden">Навигация по сайту</h2>
@@ -405,16 +409,16 @@
   </div>
 </footer>
 <section class="modal modal-add-cart">
-<div class="add-cart-block">
-<h2 class="visually-hidden">Товар добавлен в корзину</h2>
-<form class="user-form" method="post" action="https://echo.htmlacademy.ru">
-<p class="add-cart">Товар добавлен в корзину!</p>
-<a class="order" href="cart.html">Оформить заказ</a>
-<a class="continue-shopping" href="catalog.html">Продолжить покупки</a>
-</form>
-</div>
-<div class="modal-bottom"></div>
-<button class="modal-close" type="button" aria-label="Закрыть окно"></button>
+  <div class="add-cart-block">
+    <h2 class="visually-hidden">Товар добавлен в корзину</h2>
+    <form class="user-form" method="post" action="https://echo.htmlacademy.ru">
+      <p class="add-cart">Товар добавлен в корзину!</p>
+      <a class="order" href="cart.html">Оформить заказ</a>
+      <a class="continue-shopping" href="catalog.html">Продолжить покупки</a>
+    </form>
+  </div>
+  <div class="modal-bottom"></div>
+  <button class="modal-close" type="button" aria-label="Закрыть окно"></button>
 </section>
 </body>
 </html>

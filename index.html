@@ -6,7 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/min-style.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
 </head>
 <body>
 <header class="main-header">
@@ -16,7 +16,7 @@
         <div class="top-navigation-user">
           <a class="main-header-logo button" href="index.html">Техномарт</a>
           <form class="search-form" action="/" method="get">
-            <input class="search" id="search" type="search" name="search" placeholder="Поиск:" autofocus>
+            <input class="search" id="search" type="search" name="search" placeholder="Поиск:" alt="Поиск" autofocus>
           </form>
           <a class="navigation-user-link marker-link" href="marker.html">Закладки: 0</a>
           <a class="navigation-user-link cart-link" href="cart.html">Корзина: 0</a>
@@ -27,9 +27,10 @@
     <div class="information">
       <div class="container">
         <div class="top-information">
-          <h1>Интернет-магазин<br>
-            строительных материалов<br>
-            и инструментов для ремонта</h1>
+          <div class="title-about-us">
+            <h1>Интернет-магазин строительных материалов</h1>
+            <h1>и инструментов для ремонта</h1>
+          </div>
           <div class="top-info-address">
             <span class="top-info-phone">+7 (812) 555-05-55</span>
             <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -334,9 +335,8 @@
         <section class="footer-contacts">
           <h2 class="visually-hidden">Наши контакты</h2>
           <a class="main-footer-logo" href="index.html">Техномарт</a>
-          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-            +7 (812) 555-05-55
-          </p>
+          <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p>+7 (812) 555-05-55</p>
         </section>
         <section class="footer-navigation">
           <h2 class="visually-hidden">Навигация по сайту</h2>
@@ -412,19 +412,19 @@
   <form class="user-form" method="post" action="https://echo.htmlacademy.ru">
     <p class="user-info">
       <label for="user-name">
-        Ваше имя<br>
+        Ваше имя
       </label>
       <input id="user-name" type="text" name="login" value="" placeholder="Имя Фамилия">
     </p>
     <p class="user-info">
       <label for="user-email">
-        Ваш email:<br>
+        Ваш email:
       </label>
       <input id="user-email" type="email" name="email" value="" placeholder="email@example.com">
     </p>
     <p>
       <label for="user-letter">
-        Текст письма:<br>
+        Текст письма:
       </label>
       <textarea id="user-letter" name="text" rows="4" cols="100" placeholder="В свободной форме"></textarea>
     </p>
