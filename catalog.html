@@ -17,6 +17,7 @@
           <a class="main-header-logo button" href="index.html">Техномарт</a>
           <form class="search-form" action="/" method="get">
             <input class="search" id="search" type="search" name="search" placeholder="Поиск:" autofocus>
+            <label class="visually-hidden">Поиск</label>
           </form>
           <a class="navigation-user-link marker-link" href="marker.html">Закладки: 0</a>
           <a class="navigation-user-link cart-link cart-link-active" href="cart.html">Корзина: 10</a>
@@ -171,12 +172,14 @@
               <li><a href="functional.html">По функционалу</a></li>
             </ul>
             <div class="filter-item-range">
-              <a href="#" class="filter-arrow-up active" alt="По возрастанию">
+              <a href="#" class="filter-arrow-up active">
+                <span class="visually-hidden">По возрастанию</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                   <path fill="#231F20" d="M5.5 0L0 10h11z"/>
                 </svg>
               </a>
-              <a href="#" class="filter-arrow-down" alt="По убыванию">
+              <a href="#" class="filter-arrow-down">
+                <span class="visually-hidden">По убыванию</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
                   <path fill="#231F20" d="M5.5 10L0 0h11"/>
                 </svg>
@@ -299,16 +302,16 @@
           <div class="catalog-pagination">
             <ul class="pagination-list">
               <li class="pagination-item pagination-item-current">
-                <a class="page-button active-button" alt="1">1</a>
+                <a class="page-button active-button" title="страница 1">1</a>
               </li>
               <li class="pagination-item">
-                <a href="#" class="page-button" alt="2">2</a>
+                <a href="#" class="page-button" title="страница 2">2</a>
               </li>
               <li class="pagination-item">
-                <a href="#" class="page-button" alt="3">3</a>
+                <a href="#" class="page-button" title="страница 3">3</a>
               </li>
               <li class="pagination-item">
-                <a href="#" class="page-button-next" alt="Следующая">Следующая</a>
+                <a href="#" class="page-button-next" title="cледующая страница">Следующая</a>
               </li>
             </ul>
           </div>
