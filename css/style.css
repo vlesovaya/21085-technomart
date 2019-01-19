@@ -472,6 +472,7 @@ a {
   width: 150px;
   max-height: 45px;
   text-align: center;
+  vertical-align: top;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -536,6 +537,7 @@ a {
   display: inline-block;
   width: 620px;
   margin-bottom: 20px;
+  vertical-align: top;
 }
 
 .blocks-group-2 {
@@ -543,6 +545,7 @@ a {
   float: right;
   width: 300px;
   margin-left: 20px;
+  vertical-align: top;
 }
 
 .block {
@@ -562,6 +565,7 @@ a {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  vertical-align: top;
 }
 
 .new:before {
@@ -607,6 +611,7 @@ a {
   margin: 0;
 
   background-color: #8a796d;
+  vertical-align: middle;
 }
 
 .slider-list {
@@ -616,6 +621,7 @@ a {
 
 .slider-controls label {
   display: inline-block;
+  vertical-align: top;
   width: 6px;
   height: 6px;
   margin: 0 5px;
@@ -947,6 +953,7 @@ a {
   line-height: 20px;
   font-weight: bold;
   text-align: center;
+  vertical-align: top;
 }
 
 .companies-item img {
@@ -1394,6 +1401,7 @@ a {
   display: inline-block;
   width: 135px;
   margin-right: 115px;
+  vertical-align: top;
 }
 
 .social-buttons {
@@ -1582,6 +1590,7 @@ a {
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
+  vertical-align: top;
 }
 
 .products-catalog {
@@ -1613,6 +1622,7 @@ a {
 
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
+  vertical-align: top;
 }
 
 .tools-breadcrumbs:before {
@@ -1629,6 +1639,7 @@ a {
 
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
+  vertical-align: top;
 }
 
 .perforators-breadcrumbs:before {
@@ -1645,6 +1656,7 @@ a {
 
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
+  vertical-align: top;
 }
 
 /*ФИЛЬТРЫ*/
@@ -1834,7 +1846,7 @@ a {
   display: inline-block;
   line-height: 20px;
   font-size: 15px;
-  /*vertical-align: top;*/
+  vertical-align: top;
   cursor: pointer;
 }
 
@@ -1898,6 +1910,7 @@ a {
   display: inline-block;
   margin-bottom: 20px;
   margin-top: 20px;
+  vertical-align: top;
 }
 
 .catalog-content h2 {
@@ -1976,7 +1989,7 @@ a {
 }
 
 .filter-right h3 {
-  display: inline-block;
+  display: block;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -2042,6 +2055,7 @@ a {
   padding: 0;
   margin-left: 46px;
   margin-right: 15px;
+  vertical-align: top;
 }
 
 .filter-arrow-up {
@@ -2068,6 +2082,7 @@ a {
   line-height: 20px;
   font-weight: bold;
   text-align: center;
+  vertical-align: top;
 }
 
 .catalog-item:hover {
@@ -2339,7 +2354,7 @@ a {
 
 
 .modal {
-  /*display: none;*/
+  display: none;
   position: fixed;
   color: #000000;
   background-color: #ffffff;
@@ -2529,7 +2544,7 @@ a {
 }
 
 .modal-add-cart .add-cart {
-  display: inline-block;
+  display: block;
   font-family: "Cuprum", Arial, sans-serif;
   color: #000000;
   font-size: 30px;
