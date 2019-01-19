@@ -2259,6 +2259,7 @@ a {
 }
 
 .catalog-item .item-price {
+  display: block;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -2268,8 +2269,7 @@ a {
   position: relative;
   width: 80px;
   max-height: 38px;
-  margin: 10px auto;
-  margin-bottom: 20px;
+  margin: 9px 36px 20px 43px;
   padding: 10px 30px;
   color: #ffffff;
   background: #ee3643;
@@ -2277,6 +2277,7 @@ a {
 }
 
 .catalog-item .item-price:after {
+  display: block;
   content: "";
   position: absolute;
   top: 0;
@@ -2285,6 +2286,7 @@ a {
   height: 0;
   border: 19px solid white;
   border-left-color: #ee3643;
+  cursor: default;
 }
 
 .pagination-list {
