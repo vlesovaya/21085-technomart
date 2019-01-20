@@ -1283,9 +1283,16 @@ a {
   background-color: #ba2732;
 }
 
-.contact-map {
+.js-map {
   display: block;
+  width: 300px;
+  height: 158px;
   margin-top: 30px;
+  background-color: #f4f2ec;
+}
+
+.js-map img {
+  display: block;
 }
 
 .main-footer {
@@ -2389,6 +2396,46 @@ a {
 /*СТИЛИЗАЦИЯ МОДАЛЬНЫХ ОКОН*/
 
 
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
 .modal {
   display: none;
   position: fixed;
@@ -2433,6 +2480,10 @@ a {
   display: block;
   -webkit-animation: bounce 0.6s;
   animation: bounce 0.6s;
+}
+
+.modal-error {
+  animation: shake 0.6s;
 }
 
 .modal-write-us,
@@ -2660,14 +2711,29 @@ a {
 .modal-map {
   width: 940px;
   height: 448px;
-}
-
-.modal-map {
   top: 20%;
   left: 22%;
+  bottom: 310px;
   width: 940px;
   -webkit-box-sizing:border-box;
   box-sizing:border-box;
+}
+
+.modal-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  border: none;
+}
+
+.modal-image {
+  width: 940px;
+  height: 446px;
+}
+
+.modal-image img {
+  display: block;
 }
 
 .modal-map-close {
