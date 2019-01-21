@@ -1,5 +1,6 @@
 var write = document.querySelector(".message-button");
 var map = document.querySelector(".js-map");
+var cart = document.querySelector(".buy");
 
 if (write) {
 
@@ -93,5 +94,32 @@ if (map) {
   });
 }
 
+
+if (cart) {
+
+  var cartPopup = document.querySelector(".modal-add-cart");
+  var cartClose = cartPopup.querySelector(".modal-close");
+
+  for (var i = 0; i < cart.length; i++) {
+    cart[i].addEventListener("click", function (evt) {
+      evt.preventDefault();
+      cartPopup.classList.add("modal-show");
+    });
+
+  cartClose.addEventListener("click"), function (evt) {
+    evt.preventDefault();
+    cartPopup.classList.remove("modal-show");
+  }
+};
+
+  window.addEventListener("keydown", function (evt) {
+    if (evt.keyCode === 27) {
+      evt.preventDefault();
+      if (catPopup.classList.contains("modal-show")) {
+        cartPopup.classList.remove("modal-show");
+      }
+    }
+  });
+}
 
 
